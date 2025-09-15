@@ -4,13 +4,14 @@
 
         <link rel="icon" type="image/png" href="images/favicon.png">
         <title> Log in page</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-        <h1> Please Login</h1>
+    <body style="background-color:bisque;">
+    <h1> WELCOME TO LOG-IN PAGE</h1> 
 
-        <form action="index.php" method="POST"> 
-        <label for="username">username:</label> 
+<form action="index.php" method="POST" enctype="multipart/form-data"> 
+<label for="username">username:</label> 
 <input type="text" id="username" placeholder="spongebob" minlength="6" maxlength="15" required> <br>
 
 <label for="password">password:</label>
@@ -21,6 +22,39 @@
 
 <label for="phone">phone #:</label>
 <input type="tel" id="phone" placeholder="+(63) 9XX XXX XXXX"><br>
+
+<label for="bday">birthdate:</label>
+<input type="date" id="bday"> <br>
+
+<label for="quantity">quantitiy:</label>
+<input type="number" id="quantity" min="0" max="99" value="1"> <br>
+
+<!--
+<label for="title">title:</label>
+
+<label for="Mr.">Mr.</label>
+<input type="radio" id="Mr." value="Mr." name="title">
+<label for="Ms.">Mr.</label>
+<input type="radio" id="Ms." value="Mr." name="title">
+<label for="PhD.">PhD.</label>
+<input type="radio" id="PhD." value="PhD." name="title"> <br> 
+
+FOR PAYMENT OPTION
+<label for="payment">payment</label>
+<select id="payment">
+    <option value="visa">visa</option>
+    <option value="mastercard">mastercard</option>
+    <option value="giftcard">giftcard</option>
+</select><br>
+    
+FOR UPLOADING FILE OPTION
+
+<label for="file">file:</label>
+<input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+
+
+-->
 
 <input type="submit">
 <input type="reset">
