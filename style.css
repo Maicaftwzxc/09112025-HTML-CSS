@@ -1,9 +1,13 @@
 h1 {
     font-family: Verdana, Tahoma, sans-serif;
-    margin: 50px 20px;
+    text-align: center;
+
 }   
 
-.title {
-    
+#home-heading {
 
+    margin-bottom: 2em;
+    
 }
+
+
