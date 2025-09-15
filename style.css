@@ -4,9 +4,10 @@ h1 {
 
 }   
 
-#home-heading {
+#home-img {
 
-    margin-bottom: 2em;
+    float: left ;
+    margin-right: 10px;
     
 }
 
