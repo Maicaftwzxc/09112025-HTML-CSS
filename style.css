@@ -11,4 +11,182 @@ h1 {
     
 }
 
+#home-background {
+    background-image:url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    background-image:url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+#lyrics {
+    border: solid;
+    height: 300px;
+    overflow: scroll;
+}
+
+#form {
+    background-color: rgb(231, 224, 216);
+    border:  1px solid;
+    height: auto;
+    width: 300px;
+    padding: 25px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+
+@media screen and (max-width) {
+    form{
+        width:100%;
+    }
+}
+a:link {
+    color:rgba(171, 171, 219, 0.603)
+}
+
+a:hover {
+    color:rgb(109, 196, 207);
+}
+
+a:active{
+    color:rgba(12, 44, 114, 0.897);
+}
+
+#pagination {
+    background-color: rgb(231, 224, 216);
+    text-align: center;
+    border:  1px solid;
+    height: 400px;
+    width: 500px;
+    padding: 25px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    overflow: scroll;
+}
+
+.pagination {
+    text-align:center;
+}
+.pagination a{
+    color:black;
+    text-decoration: none;
+    padding: 8px 8px;
+    display: inline-block;
+}
+.pagination a.active {
+    background-color:rgb(231, 126, 99);
+    font-weight:bold;
+    border-radius: 50px;
+}
+.pagination a:hover:not(.active) {
+    background-color:rgb(153, 62, 9);
+    border-radius: 10px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown button {
+    background-color:rgb(196, 72, 63);
+    color:rgb(71, 46, 17);
+    padding: 50px 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: center;
+}
+
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color:rgb(196, 59, 35);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgb(2, 21, 56);
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: rgba(182, 77, 2, 0.384);
+}
+
+.dropdown a:hover {
+    background-color:rgb(238, 132, 105)
+}
+
+.navbar ul{
+    list-style-type:none;
+    background-color: rgba(218, 70, 33, 0.938);
+    padding: 0 px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color:antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color:rgb(241, 173, 142)
+}
+
+.navbar li {
+    float: right;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gallery {
+    display: inline-block;
+    border: 1px solid rgb(172, 75, 5);
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(241, 210, 189);
+    height: auto;
+    position: relative;
+    width: 200px;
+    
+    
+}
+
+.gallery .description {
+    padding: 20px;
+    text-align:center;
+}
+
+.gallery:hover {
+    border: 5px solid rgb(180, 74, 13);
+}
+
+.gallery img {
+    width: 100%;
+    
+}
 
