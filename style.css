@@ -31,6 +31,7 @@ h1 {
     border: solid;
     height: 300px;
     overflow: scroll;
+    background-color:rgb(241, 124, 89)
 }
 
 #form {
@@ -105,7 +106,7 @@ a:active{
     font-weight: bolder;
     font-size: 3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: center;
+    
 }
 
 .dropdown a {
@@ -173,7 +174,6 @@ main {
     position: relative;
     width: 200px;
     
-    
 }
 
 .gallery .description {
@@ -183,10 +183,17 @@ main {
 
 .gallery:hover {
     border: 5px solid rgb(180, 74, 13);
+    animation-name: grow;
+    animation-duration: 2s;
 }
 
 .gallery img {
     width: 100%;
     
 }
+
+@keyframes grow {
+   50%{transform: scale(2, 2)};
+}
+
 
